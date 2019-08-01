@@ -2,6 +2,7 @@ Portfolio
 ===
 Personal Website
 
-How to run file
+How to update website
 ---
-```npm run deploy```
+1. ```npm run deploy```
+2. Go to the setting of the repository and update CNAME file
