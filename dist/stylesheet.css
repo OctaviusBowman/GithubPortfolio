@@ -229,7 +229,7 @@ nav ul li a:hover::after {
   }
 
   arrow-up{
-      bottom: 8%;
+      bottom: -8%;
   }
 }
 
