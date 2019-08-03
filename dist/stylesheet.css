@@ -227,6 +227,10 @@ nav ul li a:hover::after {
     top: 55%;
     left: 26.5%;
   }
+
+  arrow-up{
+      bottom: 8%;
+  }
 }
 
 @media (max-width: 329px) {
