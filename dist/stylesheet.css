@@ -117,7 +117,7 @@ hr {
   position: absolute;
   bottom: -11%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 }
 
 .arrow-up span {
