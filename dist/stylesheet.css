@@ -237,3 +237,15 @@ nav ul li a:hover::after {
     top: 57%;
   }
 }
+
+/* iPhone */
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .arrow-up {
+    bottom: -28%;
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .arrow-up {
+    bottom: -28%;
+  }
+}
