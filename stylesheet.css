@@ -38,24 +38,34 @@ hr {
     ),
     #129ee7 center no-repeat;
   background-size: cover;
+  display: flex;
 }
 
 .container {
-  max-width: 125rem;
-  width: 90%;
-  margin: 0 auto;
+  /* max-width: 125rem; */
+  width: 100vw;
+  margin-bottom: 88vh;
+  justify-content: center;
+  display: flex;
 }
 
 .brand {
   font-size: 3rem;
   font-weight: 300;
+  flex-grow: 1;
+  margin-left: 10vw;
 }
 
 .brand span {
   color: #129ee7;
 }
 
-.main {
+.brand-pt2 {
+  margin-right: 10vw;
+}
+
+.center-text {
+  flex-wrap: wrap;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -63,6 +73,9 @@ hr {
   text-align: center;
   font-size: 3.4rem;
   font-weight: normal;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
   color: white;
 }
 
@@ -255,18 +268,20 @@ nav ul li a:hover::after {
   .brand {
     font-size: 1rem;
   }
-
+  .brand-pt2 {
+    margin-right: 5vw;
+  }
   nav {
     font-size: 1rem;
   }
 
-  .main {
+  .center-text {
     font-size: 2rem;
   }
   .container {
     max-width: 120rem;
     width: 90%;
-    margin: 0 auto;
+    margin-bottom: 90vh;
   }
   hr {
     top: 55%;
@@ -311,6 +326,9 @@ nav ul li a:hover::after {
     /* background: black; */
     flex-basis: 60%;
     border-radius: 0px 0px 15px 15px;
+  }
+  .arrow{
+
   }
 }
 
