@@ -67,6 +67,10 @@ body {
   font-size: 3.4rem;
 }
 
+hr {
+  color: white;
+}
+
 /* Arrow Down */
 .arrow {
   position: absolute;
@@ -309,12 +313,6 @@ nav ul li a:hover::after {
     flex-basis: 60%;
     border-radius: 0px 0px 15px 15px;
   }
-}
-
-@media (max-width: 329px) {
-  /* hr {
-    top: 57%;
-  } */
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
