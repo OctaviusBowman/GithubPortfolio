@@ -97,7 +97,7 @@ hr {
 /* Arrow Down */
 .arrow {
   position: absolute;
-  top: 92%;
+  bottom: 6vh;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -136,8 +136,8 @@ hr {
 
 /* Arrow Up */
 .arrow-up {
-  position: absolute;
-  bottom: -11%;
+  position: relative;
+  top: 8vh;
   left: 50%;
 }
 
@@ -305,6 +305,7 @@ nav ul li a:hover::after {
   .project-1 {
     flex-direction: column;
     margin: 2%;
+    margin-top: 10vh;
   }
   .project-2 {
     flex-direction: column;
