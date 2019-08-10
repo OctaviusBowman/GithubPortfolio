@@ -71,6 +71,29 @@ hr {
   color: white;
 }
 
+.icons {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-top: 5px;
+  font-size: 2.6rem;
+}
+
+#text {
+  display: flex;
+  padding: 6px;
+  justify-content: center;
+  align-self: center;
+  font-size: 1.8rem;
+}
+
+.resume-button{
+  border-radius: 10px;
+  background: #129ee7;
+  list-style: none;
+  margin: 8px 33% 0 33%;
+ }
+
 /* Arrow Down */
 .arrow {
   position: absolute;
