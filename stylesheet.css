@@ -3,6 +3,37 @@
   padding: 0;
 }
 
+button {
+  background-color: #129ee7;
+  color: white;
+  width: 145px;
+  height: 45px;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid #129ee7;
+  border-radius: 10px;
+  margin: 0 3px;
+}
+
+button:hover {
+  background-color: white;
+  border: 2px solid #129ee7;
+  color: #129ee7;
+}
+
+.project-right-img img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.project-left-img img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-radius: 15px 0px 0px 15px;
+}
+
 html {
   font-size: 10px;
   font-family: "Roboto Cn", sans-serif;
@@ -87,12 +118,12 @@ hr {
   font-size: 1.8rem;
 }
 
-.resume-button{
+.resume-button {
   border-radius: 10px;
   background: #129ee7;
   list-style: none;
   margin: 8px 33% 0 33%;
- }
+}
 
 /* Arrow Down */
 .arrow {
@@ -240,6 +271,11 @@ nav ul li a:hover::after {
   background: #373839 center no-repeat;
   display: flex;
   flex-direction: column;
+  color: #373839;
+}
+
+.project-page h1 {
+  color: #129ee7;
 }
 
 .project-1 {
@@ -273,6 +309,26 @@ nav ul li a:hover::after {
   height: 100%;
   width: 100%;
   border-radius: 0px 15px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.project-left-text p {
+  flex-basis: 50%;
+  font-size: 2.4rem;
+  margin: 8px 8px;
+}
+.project-left-text h1 {
+  font-size: 3rem;
+}
+.project-right-text p {
+  flex-basis: 50%;
+  font-size: 2.4rem;
+  margin: 8px 8px;
+}
+.project-right-text h1 {
+  font-size: 3rem;
 }
 .project-right-img {
   background: #129ee7;
@@ -284,6 +340,10 @@ nav ul li a:hover::after {
   height: 100%;
   width: 100%;
   border-radius: 0px 15px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 @media (max-width: 600px) {
@@ -326,6 +386,13 @@ nav ul li a:hover::after {
     flex-basis: 60%;
     border-radius: 0px 0px 15px 15px;
   }
+  .project-right-text p {
+    font-size: 1.7rem;
+  }
+
+  .project-right-text h1 {
+    font-size: 2.5rem;
+  }
   .project-left-img {
     background: #129ee7;
     height: 100%;
@@ -333,9 +400,23 @@ nav ul li a:hover::after {
     margin: 8px 8px;
     border-radius: 15px 15px 15px 15px;
   }
+
+  .project-left-img img {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 1px 1px #777777;
+  }
+
   .project-left-text {
     flex-basis: 60%;
     border-radius: 0px 0px 15px 15px;
+  }
+
+  .project-left-text p {
+    font-size: 1.7rem;
+  }
+
+  .project-left-text h1 {
+    font-size: 2.5rem;
   }
 }
 
