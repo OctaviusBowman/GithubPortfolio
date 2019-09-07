@@ -46,7 +46,7 @@ a {
   color: #eee;
 }
 
-body {
+.overflow-wrap {
   overflow-x: hidden;
 }
 
