@@ -272,7 +272,7 @@ nav ul li a:hover::after {
 
 /* Project content*/
 .project-page {
-  height: 230vh;
+  height: 250vh;
   background: #373839 center no-repeat;
   display: flex;
   flex-direction: column;
@@ -306,6 +306,13 @@ nav ul li a:hover::after {
 }
 .project-4 {
   margin: 0% 1% 1% 6%;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  flex-basis: 70%;
+  display: flex;
+}
+.project-5 {
+  margin: 0% 6% 1% 1%;
   border-radius: 15px;
   background: rgb(255, 255, 255);
   flex-basis: 70%;
@@ -372,7 +379,7 @@ nav ul li a:hover::after {
     width: 100vw;
   }
   .project-page {
-    height: 300vh;
+    height: 375vh;
   }
   .project-1 {
     flex-direction: column;
@@ -388,6 +395,10 @@ nav ul li a:hover::after {
     margin: 2%;
   }
   .project-4 {
+    flex-direction: column;
+    margin: 2%;
+  }
+  .project-5 {
     flex-direction: column;
     margin: 2%;
   }
