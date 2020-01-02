@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.SEO {
+  display: none;
+}
+
 button {
   background-color: #129ee7;
   color: white;
